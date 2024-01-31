@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "356455945172",
+    "project_id": "the-hungry-bunch",
+    "storage_bucket": "the-hungry-bunch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356455945172:android:9795b07b364c0ca95ebc41",
+        "android_client_info": {
+          "package_name": "com.example.thehungrybunch20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356455945172-orr2ellnejjk7gv9ffkr8963n8cipesr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thehungrybunch20",
+            "certificate_hash": "f7c859624941eb0128668666e36ae58e244a1830"
+          }
+        },
+        {
+          "client_id": "356455945172-lo1383uoi199eq9d9up7eqgk4qamunrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWY-Ckuk_rt7oo20MwS7VUZd6Ao6KkqG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356455945172-lo1383uoi199eq9d9up7eqgk4qamunrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

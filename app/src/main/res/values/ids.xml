@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="roomNumberEditText" type="id" />
+    <item name="mealSpinner" type="id" />
+    <item name="pickupRadioButton" type="id" />
+    <item name="deliveryRadioButton" type="id" />
+    <item name="orderButton" type="id" />
+    <item name="roomNumberTextView" type="id" />
+    <item name="mealTextView" type="id" />
+    <item name="amountTextView" type="id" />
+    <item name="payButton" type="id" />
+    <item name="madePaymentButton" type="id" />
+</resources>

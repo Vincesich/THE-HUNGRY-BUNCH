@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/buildingSpinner"
+        android:layout_width="381dp"
+        android:layout_height="59dp"
+        android:entries="@array/building_options"
+        android:hint="@string/select_building"
+        android:prompt="@string/select_building_prompt" />
+
+    <EditText
+        android:id="@+id/roomNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:autofillHints="Enter Room Number"
+        android:hint="@string/room_number1"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Spinner
+        android:id="@+id/mealSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:minHeight="48dp"
+        android:entries="@array/meals_array"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/pickupRadioButton"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="@string/pickup" />
+
+        <RadioButton
+            android:id="@+id/deliveryRadioButton"
+            android:layout_width="116dp"
+            android:layout_height="85dp"
+            android:text="@string/delivery" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:text="@string/place_order"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

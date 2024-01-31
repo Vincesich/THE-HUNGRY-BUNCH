@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/buildingLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selected_building"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/buildingTextView"
+            android:layout_width="245dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            tools:text="Selected Building Placeholder"
+            android:layout_toEndOf="@+id/buildingLabelTextView"
+            android:layout_alignBaseline="@+id/buildingLabelTextView"
+            android:layout_toRightOf="@+id/buildingLabelTextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/roomNumberLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/room_number11"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/roomNumberTextView"
+            android:layout_width="246dp"
+            android:layout_height="46dp"
+            android:text="@string/room_number"
+            android:layout_toEndOf="@+id/roomNumberLabelTextView"
+            android:layout_alignBaseline="@+id/roomNumberLabelTextView"
+            android:layout_toRightOf="@+id/roomNumberLabelTextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mealLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selected_meal1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/mealTextView"
+            android:layout_width="246dp"
+            android:layout_height="58dp"
+            android:text="@string/selected_meal"
+            android:layout_toEndOf="@+id/mealLabelTextView"
+            android:layout_alignBaseline="@+id/mealLabelTextView"
+            android:layout_toRightOf="@+id/mealLabelTextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/amountLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_amount1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/amountTextView"
+            android:layout_width="246dp"
+            android:layout_height="66dp"
+            android:text="@string/total_amount"
+            android:layout_toEndOf="@+id/amountLabelTextView"
+            android:layout_alignBaseline="@+id/amountLabelTextView"
+            android:layout_toRightOf="@+id/amountLabelTextView" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pay" />
+
+</LinearLayout>
